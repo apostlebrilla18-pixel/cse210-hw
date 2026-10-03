@@ -7,7 +7,7 @@ class Program
     {
         List<Video> videos = new List<Video>();
 
-        Video video1 = new Video("Story of Life", " Eric Owusu", 120);
+        Video video1 = new Video("Story of Life", "Eric Owusu", 120);
         Comment comment1 = new Comment("Manasseh", " insightful");
         video1.AddComment(comment1);
         Comment comment2 = new Comment("Paul", " good");
@@ -16,7 +16,7 @@ class Program
         video1.AddComment(comment3);
         videos.Add(video1);
 
-        Video video2 = new Video("Life", " Richmond Muss", 10);
+        Video video2 = new Video("Life", "Richmond Muss", 10);
         Comment comment4 = new Comment("Kofi", " wow");
         video2.AddComment(comment4);
         Comment comment5 = new Comment("Pau", " great");
@@ -25,7 +25,7 @@ class Program
         video2.AddComment(comment6);
         videos.Add(video2);
 
-        Video video3 = new Video("Football", " Richard Oti", 200);
+        Video video3 = new Video("Football", "Richard Oti", 200);
         Comment comment7 = new Comment("Kwame", " indeed");
         video3.AddComment(comment7);
         Comment comment8 = new Comment("Randy", " grateful");
